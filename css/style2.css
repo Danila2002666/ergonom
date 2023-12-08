@@ -1,0 +1,113 @@
+/* Общие стили для всей страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для заголовка */
+.header-container {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Стили для секции входа */
+#login-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-login {
+    color: #2c3e50;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+
+/* Добавим следующие стили после существующих стилей в вашем файле styles.css */
+.content-heading {
+    width: 1600px; 
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+}
+
+/* Стили для секции техподдержки */
+#support-container {
+    max-width: 1600px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.support-heading {
+    color: #2c3e50;
+}
+
+.support-parag {
+    margin-bottom: 10px;
+}
+
+/* Стили для секции личного кабинета */
+#personal-container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.personal-heading {
+    color: #2c3e50;
+}
+
+/* Дополнительные стили для ссылки в секции личного кабинета */
+#personal-container a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#personal-container a:hover {
+    text-decoration: underline;
+}
+
+
+/* Стили для подвала */
+.footer-container {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

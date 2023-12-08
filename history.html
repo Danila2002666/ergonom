@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style3.css">
+    <title>Информационно-расчетная система</title>
+</head>
+
+<body>
+
+    <header class="header-container">
+        <div class="logo">
+            <h1>Информационно-расчетная система</h1>
+            <p>Управляй своими расходами</p>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="meter-reading-container">
+            <h2 class="section-nav-header">Передача показаний</h2>
+            <form action="#" method="post">
+                <label for="serial-number">Серийный номер ИПУ:</label>
+                <input type="text" id="serial-number" name="serial-number" required>
+
+                <label for="service">Выберите услугу:</label>
+                <select id="service" name="service">
+                    <option value="hot-water">Горячая вода</option>
+                    <option value="cold-water">Холодная вода</option>
+                </select>
+
+                <label for="reading">Показания:</label>
+                <input type="text" id="reading" name="reading" required>
+
+                <button type="submit">Отправить</button>
+            </form>
+            <p>Прием показаний разрешен с 18 до 23 числа текущего месяца.</p>
+        </section>
+
+        <section class="meter-history-container">
+            <h2 class="section-nav-header">История внесения показаний ИПУ</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Серийный номер</th>
+                        <th>Услуга</th>
+                        <th>Годен до</th>
+                        <th>Январь</th>
+                        <th>Февраль</th>
+                        <th>Март</th>
+                        <th>Апрель</th>
+                        <th>Май</th>
+                        <th>Июнь</th>
+                        <th>Июль</th>
+                        <th>Август</th>
+                        <th>Сентябрь</th>
+                        <th>Октябрь</th>
+                        <th>Ноябрь</th>
+                        <th>Декабрь</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>19291935</td>
+                        <td>Горячая вода</td>
+                        <td>09.06.2027</td>
+                        <td>239.000</td>
+                        <td>241.000</td>
+                        <td>...</td>
+                        <td>245.000</td>
+                        <td>247.000</td>
+                        <td>249.000</td>
+                        <td>252.000</td>
+                        <td>255.000</td>
+                        <td>257.000</td>
+                        <td>261.000</td>
+                        <td>265.000</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>15454733</td>
+                        <td>Горячая вода</td>
+                        <td>09.06.2027</td>
+                        <td>239.000</td>
+                        <td>241.000</td>
+                        <td>...</td>
+                        <td>245.000</td>
+                        <td>247.000</td>
+                        <td>249.000</td>
+                        <td>252.000</td>
+                        <td>255.000</td>
+                        <td>257.000</td>
+                        <td>261.000</td>
+                        <td>265.000</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>67323533</td>
+                        <td>Холодная вода</td>
+                        <td>09.06.2027</td>
+                        <td>239.000</td>
+                        <td>241.000</td>
+                        <td>...</td>
+                        <td>245.000</td>
+                        <td>247.000</td>
+                        <td>249.000</td>
+                        <td>252.000</td>
+                        <td>255.000</td>
+                        <td>257.000</td>
+                        <td>261.000</td>
+                        <td>265.000</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>32454653</td>
+                        <td>Холодная вода</td>
+                        <td>09.06.2027</td>
+                        <td>239.000</td>
+                        <td>241.000</td>
+                        <td>...</td>
+                        <td>245.000</td>
+                        <td>247.000</td>
+                        <td>249.000</td>
+                        <td>252.000</td>
+                        <td>255.000</td>
+                        <td>257.000</td>
+                        <td>261.000</td>
+                        <td>265.000</td>
+                        <td>...</td>
+                    </tr>
+                    <!-- Добавьте остальные записи аналогичным образом -->
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer class="footer-container">
+        <p>© 2014-2023 1С:ЕРЦ Квартплата.</p>
+    </footer>
+
+</body>
+
+</html>
